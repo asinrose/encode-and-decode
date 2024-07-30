@@ -1,0 +1,13 @@
+ #include <stdio.h>
+int main()
+{
+    int age,r,code;
+    printf("enter the age: ");
+    scanf("%d",&age);
+    printf("enter the roll no: ");
+    scanf("%d",&r);
+    code=age^r;
+    printf("the roll no is %d",code^age);
+    printf("the age is %d",code^r);
+    return 0;
+}
